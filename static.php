@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>static关键字</title>
+</head>
+<body>
+	<?php
+		function add(){
+			static $x = 1;
+			echo $x;
+			$x++;
+		}
+		for ($i=0; $i < 5; $i++) {
+			add();
+			echo "<br>";
+		}
+	?>
+</body>
+</html>
