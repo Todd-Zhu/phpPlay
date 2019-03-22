@@ -27,7 +27,7 @@
 		echo gettype([1,2]);
 		echo '<br>';
 
-		// Object 对象 (必须使用class关键字声明类对象)
+		// Object 对象 (对象 − 是类的实例。必须使用class关键字声明类对象)
 		class foo
 		{
 		    function do_foo()
@@ -45,7 +45,7 @@
 		echo gettype($null);
 		echo '<br>';
 
-		echo SOME_ONE;
+		echo SOME_ONE.'.并置运算符';
 	?>
 </body>
 </html>
