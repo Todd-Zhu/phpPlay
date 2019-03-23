@@ -15,6 +15,13 @@
 			add();
 			echo "<br>";
 		}
+
+		echo "随机数<br>";
+		echo bin2hex(random_bytes(2));
+		echo "<br>";
+		echo random_int(1,10);
+
+		phpinfo();
 	?>
 </body>
 </html>
